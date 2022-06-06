@@ -20,3 +20,7 @@ It's a chess game for two players, written in Rust using [the ggez library](http
 | ![Stalemate](https://i.imgur.com/9PxX3jb.png) | ![More whacky stuff](https://i.imgur.com/hy4F2yt.png) |
 |:---:|:---:|
 | *Stalemate (Tie).* | *Showing off some customisability.* |
+
+| ![Move History](https://i.imgur.com/WFvyxF9.png) |
+|:---:|
+| *Prints the moves in the terminal.* |
