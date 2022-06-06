@@ -1,0 +1,72 @@
+{
+    "light_square_color": [
+        232,
+        206,
+        162
+    ],
+    "dark_square_color": [
+        153,
+        100,
+        33
+    ],
+    "selected_piece_color": [
+        0,
+        128,
+        128
+    ],
+    "possible_moves_color": [
+        0,
+        255,
+        255
+    ],
+    "possible_captures_color": [
+        255,
+        0,
+        255
+    ],
+    "last_move_start_color": [
+        0,
+        150,
+        30
+    ],
+    "last_move_end_color": [
+        0,
+        250,
+        50
+    ],
+    "check_color": [
+        255,
+        0,
+        0
+    ],
+    "checkmate_color": [
+        169,
+        0,
+        0
+    ],
+    "tie_color": [
+        0,
+        0,
+        169
+    ],
+    "font_color": [
+        60,
+        60,
+        60
+    ],
+    "draw_color": [
+        255,
+        221,
+        69
+    ],
+    "font_size": 12.0,
+    "draw_thickness": 5.0,
+    "queen_upgrade_button": "Q",
+    "rook_upgrade_button": "R",
+    "bishop_upgrade_button": "B",
+    "knight_upgrade_button": "N",
+    "draw_clear_button": "Space",
+    "window_size_horizontal": 480,
+    "window_size_vertical": 480,
+    "volume": 0.5
+}
