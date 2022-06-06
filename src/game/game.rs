@@ -762,8 +762,6 @@ impl event::EventHandler<ggez::GameError> for MainGame {
             }
         }
 
-        println!("{:?}", ggez::timer::fps(ctx));
-
         graphics::present(ctx)?;
 
         // If we do not clear the font cache, it will leak a lot of memory (30MB/s).
