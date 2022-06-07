@@ -46,6 +46,8 @@ pub fn print_move(
     };
 
     let piece_print = match piece.to_ascii_lowercase() {
+        // This is a zero-width space character, bascially invisible.
+        // Except in the Windows Terminal, it seems.
         'p' => '\u{200b}',
         'b' => 'B',
         'n' => 'N',
@@ -134,6 +136,7 @@ pub fn print_move(
         }
     }
 
+    // First we check for castling, since that has a special notation that is not really compatible.
     if piece == 'K' && castling.0 == true && end_pos == (7, 6) {
         print!("{}. O-O{}", turn_count, check_symbol);
     } else if piece == 'k' && castling.2 == true && end_pos == (0, 6) {

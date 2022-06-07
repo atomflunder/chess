@@ -152,6 +152,7 @@ pub fn is_tie(
     }
 
     // Checking for stalemates.
+    // If the current player has no legal moves left but is not in check, it is a stalemate and a tie.
     if game.turn == Player::White && check(board, Player::White, en_passant, castling) == false {
         let all_pieces = Piece::get_all_player_pieces(Player::White, board);
 

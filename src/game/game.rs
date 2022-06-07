@@ -745,7 +745,8 @@ impl event::EventHandler<ggez::GameError> for MainGame {
             )?;
         }
 
-        // First we push the pixes to the drawn ones.
+        // First we push the pixels to the drawn ones,
+        // there's probably a way to do this that yields better performance.
         if self.draw_mode == true {
             self.drawn_pixels
                 .push((input::mouse::position(ctx).x, input::mouse::position(ctx).y));
